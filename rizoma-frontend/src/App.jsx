@@ -113,11 +113,16 @@ export default function App() {
           </p>
           
           <div className="video-container">
-            <div className="video-placeholder">
-              <div className="video-icon">▶</div>
-              <p>Video demostrativo del sistema</p>
-            </div>
-          </div>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/uJvcBMOyIN0"
+    title="Video demostrativo del sistema"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 
           <a href="#demo" className="cta-button">
             Comenzar ahora
