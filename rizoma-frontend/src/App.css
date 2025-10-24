@@ -285,6 +285,24 @@ html, body, #root {
   transform: translateY(0);
 }
 
+.cta-button.secondary {
+  background: transparent;
+  border: 2px solid var(--accent-green);
+  color: var(--accent-green);
+}
+
+.cta-button.secondary:hover {
+  background: var(--accent-green);
+  color: var(--bg-primary);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
 .button-arrow {
   font-size: 1.2rem;
   transition: transform 0.3s ease;
